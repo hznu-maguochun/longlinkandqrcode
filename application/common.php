@@ -10,3 +10,13 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+function qrcode($url="http://192.168.1.5/longlinkandqrcode/index.php/index/index/testcode")
+{
+	$level=3;
+	$size=4;
+	Vendor('phpqrcode.phpqrcode');
+	$errorCorrectionLevel=intval($level);
+	$matrixPointSize=intval($size);
+	$obj=new \QRcode();
+	$obj->png($url,'public'.DS.'qrcodepng'.DS.'test.png',$errorCorrectionLevel,$matrixPointSize,2);
+}
