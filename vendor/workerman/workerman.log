@@ -1,4 +1,5 @@
-2019-08-20 20:01:05 pid:4888 Workerman[workermanServer.php] start in DEBUG mode
-2019-08-20 20:02:01 pid:4896 Workerman[workermanServer.php] stop 
-2019-08-20 20:02:01 pid:4896 Workerman[workermanServer.php] not run
-2019-08-20 20:10:14 pid:4955 Workerman[workermanServer.php] start in DEBUG mode
+2019-08-24 18:02:09 pid:8150 Workerman[workermanServer.php] stopping ...
+2019-08-24 18:02:09 pid:8150 Workerman[workermanServer.php] has been stopped
+2019-08-24 18:02:48 pid:8233 Workerman[workermanServer.php] start in DEBUG mode
+2019-08-24 18:09:06 pid:8233 Workerman[workermanServer.php] stopping ...
+2019-08-24 18:09:06 pid:8233 Workerman[workermanServer.php] has been stopped
