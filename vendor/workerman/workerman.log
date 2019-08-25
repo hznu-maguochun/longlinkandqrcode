@@ -1,96 +1,13 @@
-2019-08-24 18:02:09 pid:8150 Workerman[workermanServer.php] stopping ...
-2019-08-24 18:02:09 pid:8150 Workerman[workermanServer.php] has been stopped
-2019-08-24 18:02:48 pid:8233 Workerman[workermanServer.php] start in DEBUG mode
-2019-08-24 18:09:06 pid:8233 Workerman[workermanServer.php] stopping ...
-2019-08-24 18:09:06 pid:8233 Workerman[workermanServer.php] has been stopped
-2019-08-24 20:30:49 pid:1014 Workerman[workermanServer.php] start in DEBUG mode
-2019-08-24 20:31:13 pid:1014 Workerman[workermanServer.php] stopping ...
-2019-08-24 20:31:13 pid:1014 Workerman[workermanServer.php] has been stopped
-2019-08-24 20:56:54 pid:1289 Workerman[workermanServer.php] start in DEBUG mode
-2019-08-24 20:59:08 pid:1289 Workerman[workermanServer.php] stopping ...
-2019-08-24 20:59:08 pid:1289 Workerman[workermanServer.php] has been stopped
-2019-08-24 20:59:15 pid:1313 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 20:59:41 pid:1321 Workerman[workermanServer.php] stop 
-2019-08-24 20:59:41 pid:1321 Workerman[workermanServer.php] is stopping ...
-2019-08-24 20:59:41 pid:1315 Workerman[workermanServer.php] stopping ...
-2019-08-24 20:59:41 pid:1315 Workerman[workermanServer.php] has been stopped
-2019-08-24 20:59:41 pid:1321 Workerman[workermanServer.php] stop success
-2019-08-24 22:00:41 pid:2162 Workerman[workermanServer.php] status 
-2019-08-24 22:00:41 pid:2162 Workerman[workermanServer.php] not run
-2019-08-24 22:00:50 pid:2169 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 22:02:50 pid:2204 Workerman[workermanServer.php] status 
-2019-08-24 22:03:13 pid:2206 Workerman[workermanServer.php] status 
-2019-08-24 22:10:38 pid:2274 Workerman[workermanServer.php] status 
-2019-08-24 22:10:52 pid:2281 Workerman[workermanServer.php] stop 
-2019-08-24 22:10:52 pid:2281 Workerman[workermanServer.php] is stopping ...
-2019-08-24 22:10:52 pid:2171 Workerman[workermanServer.php] stopping ...
-2019-08-24 22:10:52 pid:2171 Workerman[workermanServer.php] has been stopped
-2019-08-24 22:10:52 pid:2281 Workerman[workermanServer.php] stop success
-2019-08-24 22:11:57 pid:2303 Workerman[workermanServer.php] start in DEBUG mode
-2019-08-24 22:18:10 pid:2303 Workerman[workermanServer.php] stopping ...
-2019-08-24 22:18:11 pid:2303 Workerman[workermanServer.php] has been stopped
-2019-08-24 22:18:18 pid:2351 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 22:19:09 pid:2366 Workerman[workermanServer.php] stop 
-2019-08-24 22:19:09 pid:2366 Workerman[workermanServer.php] is stopping ...
-2019-08-24 22:19:09 pid:2353 Workerman[workermanServer.php] stopping ...
-2019-08-24 22:19:09 pid:2353 Workerman[workermanServer.php] has been stopped
-2019-08-24 22:19:09 pid:2366 Workerman[workermanServer.php] stop success
-2019-08-24 22:19:14 pid:2367 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 22:42:20 pid:2541 Workerman[workermanServer.php] stop 
-2019-08-24 22:42:20 pid:2541 Workerman[workermanServer.php] is stopping ...
-2019-08-24 22:42:20 pid:2369 Workerman[workermanServer.php] stopping ...
-2019-08-24 22:42:20 pid:2369 Workerman[workermanServer.php] has been stopped
-2019-08-24 22:42:20 pid:2541 Workerman[workermanServer.php] stop success
-2019-08-24 22:42:26 pid:2542 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 22:44:53 pid:2563 Workerman[workermanServer.php] status 
-2019-08-24 22:46:48 pid:2592 Workerman[workermanServer.php] status 
-2019-08-24 22:47:14 pid:2600 Workerman[workermanServer.php] status 
-2019-08-24 22:48:05 pid:2611 Workerman[workermanServer.php] status 
-2019-08-24 22:49:16 pid:2624 Workerman[workermanServer.php] status 
-2019-08-24 22:50:12 pid:2634 Workerman[workermanServer.php] status 
-2019-08-24 22:50:27 pid:2635 Workerman[workermanServer.php] status 
-2019-08-24 22:51:45 pid:2642 Workerman[workermanServer.php] status 
-2019-08-24 22:52:46 pid:2649 Workerman[workermanServer.php] status 
-2019-08-24 22:57:22 pid:2705 Workerman[workermanServer.php] status 
-2019-08-24 22:58:19 pid:2712 Workerman[workermanServer.php] status 
-2019-08-24 22:58:32 pid:2713 Workerman[workermanServer.php] status 
-2019-08-24 22:58:39 pid:2714 Workerman[workermanServer.php] status 
-2019-08-24 22:58:54 pid:2715 Workerman[workermanServer.php] status 
-2019-08-24 22:59:03 pid:2716 Workerman[workermanServer.php] status 
-2019-08-24 22:59:13 pid:2717 Workerman[workermanServer.php] status 
-2019-08-24 22:59:27 pid:2724 Workerman[workermanServer.php] status 
-2019-08-24 22:59:55 pid:2726 Workerman[workermanServer.php] status 
-2019-08-24 23:04:49 pid:2762 Workerman[workermanServer.php] status 
-2019-08-24 23:05:05 pid:2763 Workerman[workermanServer.php] stop 
-2019-08-24 23:05:05 pid:2763 Workerman[workermanServer.php] is stopping ...
-2019-08-24 23:05:05 pid:2544 Workerman[workermanServer.php] stopping ...
-2019-08-24 23:05:05 pid:2544 Workerman[workermanServer.php] has been stopped
-2019-08-24 23:05:05 pid:2763 Workerman[workermanServer.php] stop success
-2019-08-24 23:05:13 pid:2764 Workerman[workermanServer.php] status 
-2019-08-24 23:05:13 pid:2764 Workerman[workermanServer.php] not run
-2019-08-24 23:05:18 pid:2771 Workerman[workermanServer.php] start in DEBUG mode
-2019-08-24 23:06:08 pid:2771 Workerman[workermanServer.php] stopping ...
-2019-08-24 23:06:08 pid:2771 Workerman[workermanServer.php] has been stopped
-2019-08-24 23:06:15 pid:2778 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 23:06:30 pid:2784 Worker[2784] process terminated
-2019-08-24 23:06:45 pid:2782 Worker[2782] process terminated
-2019-08-24 23:08:42 pid:2820 Workerman[workermanServer.php] stop 
-2019-08-24 23:08:42 pid:2820 Workerman[workermanServer.php] is stopping ...
-2019-08-24 23:08:42 pid:2780 Workerman[workermanServer.php] stopping ...
-2019-08-24 23:08:42 pid:2780 Workerman[workermanServer.php] has been stopped
-2019-08-24 23:08:42 pid:2820 Workerman[workermanServer.php] stop success
-2019-08-24 23:13:31 pid:2861 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 23:13:47 pid:2864 Worker[2864] process terminated
-2019-08-24 23:15:37 pid:2893 Workerman[workermanServer.php] stop 
-2019-08-24 23:15:37 pid:2893 Workerman[workermanServer.php] is stopping ...
-2019-08-24 23:15:37 pid:2863 Workerman[workermanServer.php] stopping ...
-2019-08-24 23:15:37 pid:2863 Workerman[workermanServer.php] has been stopped
-2019-08-24 23:15:37 pid:2893 Workerman[workermanServer.php] stop success
-2019-08-24 23:15:43 pid:2894 Workerman[workermanServer.php] start in DAEMON mode
-2019-08-24 23:15:58 pid:2898 Worker[2898] process terminated
-2019-08-24 23:46:18 pid:3138 Workerman[workermanServer.php] stop 
-2019-08-24 23:46:18 pid:3138 Workerman[workermanServer.php] is stopping ...
-2019-08-24 23:46:18 pid:2896 Workerman[workermanServer.php] stopping ...
-2019-08-24 23:46:18 pid:2896 Workerman[workermanServer.php] has been stopped
-2019-08-24 23:46:18 pid:3138 Workerman[workermanServer.php] stop success
-2019-08-24 23:46:20 pid:3139 Workerman[workermanServer.php] start in DAEMON mode
+2019-08-25 13:27:32 pid:3378 Workerman[workermanServer.php] stop 
+2019-08-25 13:27:32 pid:3378 Workerman[workermanServer.php] is stopping ...
+2019-08-25 13:27:32 pid:3331 Workerman[workermanServer.php] stopping ...
+2019-08-25 13:27:32 pid:3331 Workerman[workermanServer.php] has been stopped
+2019-08-25 13:27:32 pid:3378 Workerman[workermanServer.php] stop success
+2019-08-25 13:27:38 pid:3379 Workerman[workermanServer.php] start in DAEMON mode
+2019-08-25 14:00:09 pid:3796 Workerman[workermanServer.php] status 
+2019-08-25 14:40:07 pid:4048 Workerman[workermanServer.php] status 
+2019-08-25 14:40:13 pid:4050 Workerman[workermanServer.php] stop 
+2019-08-25 14:40:13 pid:4050 Workerman[workermanServer.php] is stopping ...
+2019-08-25 14:40:13 pid:3381 Workerman[workermanServer.php] stopping ...
+2019-08-25 14:40:13 pid:3381 Workerman[workermanServer.php] has been stopped
+2019-08-25 14:40:13 pid:4050 Workerman[workermanServer.php] stop success

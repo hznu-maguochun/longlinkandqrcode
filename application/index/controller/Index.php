@@ -6,7 +6,9 @@ class Index extends Controller
 {
     public function index()
     {
-    	qrcode();
+    	$png=qrcode();
+        //dump($png);
+        $this->assign('png',$png);
         return $this->fetch();
     }
     public function testcode()

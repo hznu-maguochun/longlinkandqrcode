@@ -12,14 +12,14 @@ $(function() {
     $("button:eq(0)").click(function() { 
         try { 
              /* 连接 */ 
-             socket = new WebSocket("ws://192.168.1.8:2346"); 
+             socket = new WebSocket("ws://localhost:2346"); 
                 
              /* 绑定事件 */ 
              socket.onopen = function() { 
                  $("#msg").html("连接成功...<br />");
                  setInterval(function () {
         			socket.send('client beat');
-    				}, 10000); 
+    				}, 40000); 
              }; 
                 
             socket.onmessage = function(e) { 

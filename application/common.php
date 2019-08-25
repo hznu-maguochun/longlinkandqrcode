@@ -18,5 +18,7 @@ function qrcode($url="http://192.168.1.5/longlinkandqrcode/index.php/index/index
 	$errorCorrectionLevel=intval($level);
 	$matrixPointSize=intval($size);
 	$obj=new \QRcode();
-	$obj->png($url,'public'.DS.'qrcodepng'.DS.'test.png',$errorCorrectionLevel,$matrixPointSize,2);
+	$png=md5(date('y-m-d H:m:s')).'.png';
+	$obj->png($url,'public'.DS.'qrcodepng'.DS.$png,$errorCorrectionLevel,$matrixPointSize,2);
+	return 'public'.DS.'qrcodepng'.DS.$png;
 }
