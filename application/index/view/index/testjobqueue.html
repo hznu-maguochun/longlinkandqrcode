@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="__ROOT__/public/static/js/jquery-3.4.1.min.js"></script>
+<script>
+function updatenumber(){
+	$.ajax({
+        type: 'get',
+        url: "updatenumber",
+        dataType: 'json',
+        success: function(res) {
+            var t=JSON.parse(res);
+            $("#totalnum").html(t.num);
+
+        },
+        error: function() {
+            console.log('请求失败~');
+        }
+    });
+}
+
+$(function(){
+setInterval('updatenumber()', 1000);  //定时每秒启用updateTime更新时间数据
+    });
+</script>
+</head>
+<body>
+<div>前方还有<span id="totalnum">{$v}</span>人</div>
+
+</body>
+</html> 

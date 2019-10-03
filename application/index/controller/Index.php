@@ -26,7 +26,7 @@ class Index extends Controller{
     public function getqueue(){
         return $this->fetch();
     }
-    public function testJobQueue()
+    public function testjobqueue()
     { 
         $jobHandleClassName = 'app\queuejob\myjob@fire';
         $jobQueueName = 'helloJobQueue';
@@ -35,15 +35,21 @@ class Index extends Controller{
         // $isPush = Queue::later($timeToWait,$jobHandleClassName,$jobData,$jobQueueName);
         $isPush = Queue::push($jobHandleClassName,$jobData,$jobQueueName);
         $jobs=new jobs;
-        $v=$jobs->getLength();
-        dump($v);
+        $v=$jobs->getLength(); 
         if ($isPush != false) {
-            echo date('Y-m-d H:i:s').'  : a new Job is push to the MQ<br>';
-            echo "前方还有$v 人";
+            echo date('Y-m-d H:i:s').'  : a new Job is push to the MQ<br>'; 
+            $this->assign("v",$v);
         }
         else{
             dump($isPush);
             echo('Oooo, sth. is wrong');
-        } 
+        }
+        return $this->fetch(); 
     } 
+    public function updatenumber( )
+    {
+        $jobs=new jobs;
+        $v=$jobs->getLength(); 
+        return json_encode(['num'=>$v]);
+    }
 }
