@@ -44,12 +44,15 @@ class Index extends Controller{
             dump($isPush);
             echo('Oooo, sth. is wrong');
         }
+        $this->assign('token',md5(date('Y-m-d H:i:s')));
         return $this->fetch(); 
     } 
     public function updatenumber( )
     {
+        $r=Request::instance();
+        $token=$r->param('token');
         $jobs=new jobs;
         $v=$jobs->getLength(); 
-        return json_encode(['num'=>$v]);
+        return json_encode(['num'=>$v,'token'=>$token]);
     }
 }

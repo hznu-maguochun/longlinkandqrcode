@@ -6,12 +6,13 @@
 <script>
 function updatenumber(){
 	$.ajax({
-        type: 'get',
+        type: 'post',
+        data: {'token':"{$token}"},
         url: "updatenumber",
         dataType: 'json',
         success: function(res) {
             var t=JSON.parse(res);
-            $("#totalnum").html(t.num);
+            $("#totalnum").html(t.num+t.token);
 
         },
         error: function() {

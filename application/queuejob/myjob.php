@@ -36,7 +36,6 @@ class myjob
 	{
 		echo("<br>............................<br>");
 		dump($data);
-		sleep(5);
 		dump('<br>done done<br>');
 		echo("............................<br>");
 		return true;
