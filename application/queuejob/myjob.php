@@ -34,9 +34,8 @@ class myjob
 	}
 	public function doMyJob($data)	
 	{
-		echo("<br>............................<br>");
-		dump($data);
-		dump('<br>done done<br>');
+		echo("<br>****<br>");
+		pdf2singlepng('ds.pdf','public/png/');
 		echo("............................<br>");
 		return true;
 	}

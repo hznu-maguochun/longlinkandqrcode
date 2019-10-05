@@ -20,6 +20,11 @@ class Index extends Controller{
     public function testcode(){
     	return $this->fetch();
     }
+    public function testpdf2png()
+    {
+        echo "start sever"; 
+        exec('php think queue:listen --queue=helloJobQueue');
+    }
     public function testlonglink(){
     	return $this->fetch();
     }
